@@ -3,20 +3,20 @@ Automated Media Processing Pipeline (Headless Engine)
 Note: The source code for this project is private to protect proprietary automation logic and commercial API integrations. Functional demonstrations are available upon request during technical interviews.
 
 Project Overview
-This is a high-performance, zero-GUI (headless) video synthesis engine developed in Python. It leverages the Blender Python API (bpy) to automate the entire post-production workflow—from raw media ingestion to final render—without any manual human intervention.
+		This is a high-performance, zero-GUI (headless) video synthesis engine developed in Python. It leverages the Blender Python API (bpy) to automate the entire 	post-production workflow from raw media ingestion to final render without any manual human intervention.
 
-The system is designed for rapid batch processing, transforming disparate data sources (audio, text, and 3D scenes) into synchronized, high-retention video content.
+		The system is designed for rapid batch processing, transforming disparate data sources (audio, text, and 3D scenes) into synchronized, high-retention video content.
 
 Technical Stack
-Core Orchestration: Python 3.11+
+	Core Orchestration: Python 3.11+
 
-Graphics Engine: Blender API (Headless Rendering)
+	Graphics Engine: Blender API (Headless Rendering)
 
-Data Integration: JSON parsing for frame-accurate event triggers
+	Data Integration: JSON parsing for frame-accurate event triggers
 
-Audio Processing: API-driven TTS with automated silence trimming
+	Audio Processing: API-driven TTS with automated silence trimming
 
-Security: Environment-based API key isolation (Dotenv architecture)
+	Security: Environment-based API key isolation (Dotenv architecture)
 
 
 Architectural Highlights
